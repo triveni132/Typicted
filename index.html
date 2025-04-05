@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Typicted"/>
+    <meta name="keywords" content="Typing Game,Typing Test,Web Game,online play Typing Game"/>
+    <meta name="author" content="Typicted"/>
+    <title>Typicted</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="logo.jpg">
+
+</head>
+<body oncontextmenu="return false;">
+    <div class="container">
+        <div class="homeLogo">
+            <span class="logoName">Typicted</span>
+                <img src="logo.jpg" alt="Typicted" width="50px" height="30px">
+            
+        </div>
+        <div class="games">
+            <a href="Game1.html" ><img src="game1.png" class="game" alt="Typicted"><div class="play_btn"><i class="fa-solid fa-play"></i></div></a>
+            <a href="Game5.html" ><img src="game5.png" class="game" alt="Typicted"><div class="play_btn"><i class="fa-solid fa-play"></i></div></a>
+            <a href="Game3.html" ><img src="game3.png" class="game" alt="Typicted"><div class="play_btn"><i class="fa-solid fa-play"></i></div></a>
+            <a href="Game2.html" ><img src="game2.png" class="game" alt="Typicted"><div class="play_btn"><i class="fa-solid fa-play"></i></div></a>
+            <a href="Game4.html" ><img src="game4.png" class="game" alt="Typicted"><div class="play_btn"><i class="fa-solid fa-play"></i></div></a>
+        </div>
+    </div>
+</body>
+  <script>
+    document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+  return false;
+  }
+  }
+</script>  
+</html>

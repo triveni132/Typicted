@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typicted</title>
+    <link rel="stylesheet" href="Game4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" type="x-icon" href="logo.jpg">
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="game">
+        <div class="wrapper">
+            <div class="content-box">
+                <li class="time">
+                    <span><b>60</b>s</span>
+                    <p class="start-bord-text"></p>
+                    <span class="alert-wrong"></span>
+                    <input type="text" class="input-field" placeholder="Type here!">
+                </li>
+                <div class="typing-text">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="ground">
+            <ul class="result-details">
+                <li class="wpm " style="list-style: none;">
+                    <p>WPM:</p>
+                    <span>0</span>
+                </li>
+            </ul>
+            <div class="play">
+                <div class="players">
+                    <div class="car maincar">
+                        <div class="wheel wheel1">
+                            <img src="car_wheel_left.png" alt="">
+                        </div>
+                        <div class="wheel wheel2">
+                            <img src="car_wheel_right.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Others -->
+                    <div class="car  otherCar1">
+                    </div>
+                    <div class="car  otherCar2">
+                    </div>
+                    <div class="car  otherCar3">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <div class="result-box">
+        <div class="result">
+            <ul>
+                <div class="Your-Result">Result</div>
+                <li class="result-wpm">
+                    <p>WPM:</p>
+                    <span>0</span>
+                </li>
+                <li class="result-TimeTaken">
+                    <p>Time:</p>
+                    <span>0</span>
+                </li>
+                <li class="result-CorrectWord">
+                    <p>Correctword:</p>
+                    <span>0</span>
+                </li>
+                <li class="result-Correct">
+                    <p>CorrectLetters:</p>
+                    <span>0</span>
+                </li>
+
+                <button class="Replay-btn">Replay</button>
+            </ul>
+        </div>
+    </div>
+    <div class="instruction">
+        <div class="rules">
+            <div class="instructions"></div>
+           <div style="color:red;">!Type Manually</div>
+            <div style="color:red;">!Do Not Try to use Copy&Paste OR keyboard suggestions word Otherwise your Game will stuck</div>
+              <div>For Good Experience Use External Keyboard if you are a mobile user</div>
+            <button class="next-btn">Play</button>
+
+        </div>
+    </div>
+    <script src="paragraph.js"></script>
+    <script src="Game4.js"></script>
+</body>
+
+</html>
